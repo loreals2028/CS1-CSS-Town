@@ -1,1 +1,21 @@
+body{
+    background: url(concrete-9843-in-architextures.jpg);
+    background-size: 65%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+#sky {
+    background: linear-gradient(DeepSkyBlue,LightSkyBlue,AliceBlue);
+    height: 78%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+#sun {
+    font-size: 125px;
+    position: absolute;
+    top: 8px;
+    left: 425px;
+}
