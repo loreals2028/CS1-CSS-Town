@@ -17,5 +17,43 @@ body{
     font-size: 125px;
     position: absolute;
     top: 8px;
-    left: 425px;
+    left: 475px;
+}
+
+#cloud-1{
+    font-size: 125px;
+    position: absolute;
+    top: 35px;
+    right: 475px;
+}
+#cloud-2{
+    font-size: 125px;
+    position: absolute;
+    top: 35px;
+    left: 575px;
+}
+
+#building-1{
+    background: rgb(240, 230, 215);
+    height: 400px;
+    width:450px;
+    position:absolute;
+    top: 200px;
+    left: 100px;
+
+}
+
+#roof-1{
+    border-bottom: 100px solid rgb(241, 241, 238);
+    border-left: 100px solid transparent;
+    border-right:100px solid transparent;
+    position: relative;
+    bottom: 100px;
+}
+
+#tree{
+    width: 2px;
+    position: absolute;
+    bottom: 150px;
+    right:100px;
 }
