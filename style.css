@@ -1,15 +1,16 @@
 body{
-    background: url(concrete-9843-in-architextures.jpg);
-    background-size: 65%;
+    background: url(grass-3937-in-architextures.jpg);
+    background-size: 75%;
     margin: 0;
     padding: 0;
     height: 100%;
+    max-width: 500px;
 }
 
 #sky {
     background: linear-gradient(DeepSkyBlue,LightSkyBlue,AliceBlue);
     height: 78%;
-    width: 100%;
+    min-width: 100%;
     position: absolute;
     z-index: 0;
 }
@@ -34,7 +35,7 @@ body{
 }
 
 #building-1{
-    background: rgb(240, 230, 215);
+    background: rgb(243, 238, 201);
     height: 400px;
     width:450px;
     position:absolute;
@@ -44,11 +45,30 @@ body{
 }
 
 #roof-1{
-    border-bottom: 100px solid rgb(241, 241, 238);
-    border-left: 100px solid transparent;
-    border-right:100px solid transparent;
+    border-bottom: 100px solid rgb(248, 144, 69);
+    border-left: 75px solid transparent;
+    border-right:75px solid transparent;
     position: relative;
     bottom: 100px;
+}
+
+#door{
+    font-size: 125px;
+    position: absolute;
+    bottom: 75px;
+    left:25px;
+    z-index: 10;
+}
+
+#window-1{
+    font-size: 125px;
+    position: absolute;
+    top: 35px;
+    right: 475px;
+}
+
+#window-2{
+
 }
 
 #tree{
