@@ -25,13 +25,13 @@ body{
     font-size: 125px;
     position: absolute;
     top: 35px;
-    right: 475px;
+    right: 555px;
 }
 #cloud-2{
     font-size: 125px;
     position: absolute;
     top: 35px;
-    left: 575px;
+    left: 580px;
 }
 
 #building-1{
@@ -41,6 +41,7 @@ body{
     position:absolute;
     top: 200px;
     left: 100px;
+    z-index: 5;
 
 }
 
@@ -53,22 +54,35 @@ body{
 }
 
 #door{
-    font-size: 125px;
+    font-size: 150px;
     position: absolute;
-    bottom: 75px;
-    left:25px;
+    bottom: 80px;
+    left:100px;
     z-index: 10;
 }
 
 #window-1{
     font-size: 125px;
     position: absolute;
-    top: 35px;
+    top: 250px;
     right: 475px;
+    z-index: 5;
 }
 
 #window-2{
+font-size: 125px;
+    position: absolute;
+    top: 250px;
+    right: 175px;
+    z-index: 5;
+}
 
+#window-3{
+    font-size: 125px;
+    position: absolute;
+    bottom: 100px;
+    right: 175px;
+    z-index: 10;
 }
 
 #tree{
